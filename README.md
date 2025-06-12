@@ -1,14 +1,47 @@
-# Criminal Face Detection System (Java)
+👮 Criminal Face Detection System (Java)
 
-## Features
-- Face Detection using Haar Cascade (OpenCV)
-- Face Recognition using dummy LBPH recognizer
-- Matches against stored criminal data
+A simple criminal face detection system using Java, OpenCV, and SQLite. It detects faces in real-time using Haar Cascade and stores data in a database.
 
-## How to Run
-1. Add OpenCV JARs to `lib/` folder.
-2. Add Haar cascade XML to `models/` folder.
-3. Add real face images to `images/` folder.
-4. Run `Main.java` to simulate detection.
+---
 
-**Note**: This version includes placeholder code for learning/demo purposes.
+🚀 Features
+
+- Real-time face detection (OpenCV)
+- Java Swing GUI
+- SQLite database integration
+- Haar Cascade-based detection
+
+---
+
+🛠 Tech Stack
+
+- Java (JDK 8+)
+- OpenCV (Java bindings)
+- SQLite (JDBC)
+- Haarcascade XML
+
+---
+
+📦 How to Run
+
+1. Install Java and OpenCV
+2. Add `opencv-xxx.jar` to your project
+3. Place `haarcascade_frontalface_default.xml` in a folder
+4. Run `Main.java` from an IDE
+
+---
+
+📁 Files
+
+- `src/` → Java code  
+- `lib/` → OpenCV jar  
+- `haarcascades/` → XML file  
+- `database/` → SQLite DB  
+
+---
+
+
+
+  
+
+
